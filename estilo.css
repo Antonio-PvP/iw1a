@@ -13,10 +13,41 @@ h1{
     width: 250px;
     border:5px solid #339;
 }
+.card{
+    background-color: #ff79;
+    width: 250px;
+    border: 5px solid #4444
+}
 .card-imagem{
     margin-top:25px;
     margin-left:30px;
     margin-right:10px;
-    margin-bottom:100px;
-    border:3px double #288;
+    margin-bottom:10px;
+    border:1px double #288;
+}
+
+.card-botao{
+    width: 100%; /* largura do elemento */
+    padding: 15px 0; /* espaçamento interno */
+    background-color: orangered; /* cor de fundo */
+    color:aliceblue; /* cor do texto */
+    font-family: Arial; /* Tipo de fonte */
+    font-weight: bold; /* peso da fonte negrito */
+}
+.card-descricao{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.card-preco{
+    font-family: Impact;
+    font-size:25px;
+    color: #2fff;
+    margin-bottom: 45px;
+    padding-left: 10%;
 }

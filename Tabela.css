@@ -1,0 +1,32 @@
+body, html{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(154, 198, 255);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+td{
+    font-size: 30px;
+    border: 1px solid #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 6px;
+}
+table{
+    background-color: rgb(0, 149, 160);
+    padding: 20px 10px;
+}
+th{
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+
+}
+td{
+    color: rgb(0, 84, 117);
+}
